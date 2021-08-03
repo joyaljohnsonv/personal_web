@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html,
 body {
     margin: 0;
@@ -66,14 +61,12 @@ ul {
     list-style-type: none;
 }
 
-/*--/navbar--*/
 header {
     position: absolute;
     width: 100%;
     z-index: 9;
 }
 
-/* menu */
 ul#menu {
     position: absolute;
     /* top: 2%; */
@@ -111,14 +104,14 @@ ul#menu input {
     display: none
 }
 
-/*show the second levele menu of the selected voice*/
+
 
 ul#menu input:checked~ul.submenu {
     max-height: 360px;
     transition: max-height 0.5s ease-in;
 }
 
-/*style for the second level menu*/
+
 
 ul.submenu {
     max-height: 0;
@@ -157,20 +150,19 @@ ul.submenu li a.active {
     color: #2a5298;
 }
 
-/* //menu */
 .navbar {
 	padding: 1em 2em;
 	border-bottom: 1px solid rgba(243, 242, 242, 0.41);
 }
 
-h1.wthree-logo a {
+h1.joyal-logo a {
 	text-transform: capitalize;
 	font-size: 0.9em;
 	font-weight: 400;
 	color: #fff;
 }
 
-h1.wthree-logo a span {
+h1.joyal-logo a span {
 	font-weight: 800;
 }
 
@@ -204,22 +196,22 @@ a.scroll.bnr-btn i{
 }
 
 
-.bnr-w3pvt-txt {
+.bnr-jithu-txt {
 	margin-left: 0em;
 }
 
 /* banner */
 
-.banner-w3pvt {
+.banner-jithu {
 	background: url(../images/banner.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
 
-.bnr-txt-w3pvt {
+.bnr-txt-jithu {
     margin: 12em 0 9em;
 }
-.banner-w3pvt:before {
+.banner-jithu:before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -234,17 +226,17 @@ a.scroll.bnr-btn i{
 	background: linear-gradient(to right, #2a5298, rgba(30, 60, 114, 0.59)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.bnr-w3pvt-txt h2 {
+.bnr-jithu-txt h2 {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
 }
-.bnr-w3pvt-txt p {
+.bnr-jithu-txt p {
     color: #eee;
 }
 
-.bnr-w3pvt-txt h6 {
+.bnr-jithu-txt h6 {
     font-size: 17px;
     color: #fff;
     margin-bottom: 30px;
@@ -252,7 +244,7 @@ a.scroll.bnr-btn i{
     text-transform: capitalize;
 }
 
-.bnr-w3pvt-txt h6:after {
+.bnr-jithu-txt h6:after {
     position: absolute;
     content: '';
     width: 8%;
@@ -261,9 +253,9 @@ a.scroll.bnr-btn i{
     left: 0;
 	bottom: -70%
 }
-.bnr-w3pvt-txt h2 span{
+.bnr-jithu-txt h2 span{
 }
-.bnr-w3pvt-txt h4 {
+.bnr-jithu-txt h4 {
     text-transform: capitalize;
     color: #eee;
     letter-spacing: 1px;
@@ -587,7 +579,7 @@ p.paragraph:after {
 	opacity: 0.9;
 	background: #1e3c72;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #e36596, rgba(30, 60, 114, 0.59));  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #e36596, rgba(30, 60, 114, 0.59)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #e36596, rgba(30, 60, 114, 0.59)); /* , IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .quote h4 {
@@ -668,7 +660,7 @@ p.paragraph:after {
     margin-left: 1em;
 }
 
-.w3layouts-map iframe {
+.jithu-map iframe {
     width: 100%;
     min-height: 420px;
     padding: 10px;
@@ -707,13 +699,13 @@ footer ul.social_section_1info a span.fa{
     line-height: 35px;
     font-size: 13px;
 }
-h3.wthree-logo a {
+h3.joyal-logo a {
     text-transform: capitalize;
     font-size: 1.2em;
     font-weight: 400;
     color: #fff;
 }
-h3.wthree-logo a span {
+h3.joyal-logo a span {
     font-weight: 800;
 }
 /*-- //footer --*/
@@ -756,10 +748,10 @@ a.move-top span{
     .about-right h4.main {
 		margin: 0em 0 .5em;
 	}
-	.bnr-w3pvt-txt h2 {
+	.bnr-jithu-txt h2 {
 		font-size: 55px;
 	}
-	.bnr-w3pvt-txt h4 {
+	.bnr-jithu-txt h4 {
 		font-size: 24px;
 	}
 	.about-right {
@@ -782,16 +774,16 @@ a.move-top span{
 	}
 }
 @media(max-width:1024px) {
-    .bnr-w3pvt-txt h2 {
+    .bnr-jithu-txt h2 {
 		font-size: 50px;
 	}
-	.bnr-w3pvt-txt h4 {
+	.bnr-jithu-txt h4 {
 		font-size: 21px;
 	}
-	.bnr-w3pvt-txt p {
+	.bnr-jithu-txt p {
 		font-size: 15px;
 	}
-	.bnr-txt-w3pvt {
+	.bnr-txt-jithu {
 		margin: 10em 0 8em;
 	}
 	.about-right h4.main {
@@ -830,7 +822,7 @@ a.move-top span{
 	footer {
 		text-align: center;
 	}
-	.w3layouts-map iframe {
+	.jithu-map iframe {
 		min-height: 380px;
 	}
 }
@@ -841,10 +833,10 @@ a.move-top span{
 	}
 }
 @media(max-width:768px) {
-    .bnr-w3pvt-txt h2 {
+    .bnr-jithu-txt h2 {
 		font-size: 45px;
 	}
-	.bnr-txt-w3pvt {
+	.bnr-txt-jithu {
 		margin: 9em 0 6em;
 	}
 	a.scroll.bnr-btn,a.scroll.bnr-btn1 {
@@ -881,30 +873,30 @@ a.move-top span{
 	h3.heading {
 		font-size: 35px;
 	}
-	h1.wthree-logo a {
+	h1.joyal-logo a {
 		font-size: 0.8em;
 	}
-	h3.wthree-logo a {
+	h3.joyal-logo a {
 		font-size: 1.1em;
 	}
-	.w3layouts-map iframe {
+	.jithu-map iframe {
 		min-height: 350px;
 	}
 }
 @media(max-width:667px) {
-    .bnr-txt-w3pvt {
+    .bnr-txt-jithu {
 		margin: 8em 0 5em;
 	}
-	.bnr-w3pvt-txt h2 {
+	.bnr-jithu-txt h2 {
 		font-size: 40px;
 	}
-	.bnr-w3pvt-txt h4 {
+	.bnr-jithu-txt h4 {
 		font-size: 19px;
 	}
 	a.scroll.bnr-btn, a.scroll.bnr-btn1 {
 		margin-top: 1em;
 	}
-	.w3layouts-map iframe {
+	.jithu-map iframe {
 		min-height: 300px;
 	}
 }
@@ -921,10 +913,10 @@ a.move-top span{
 	ul#menu {
 		right: 8%;
 	}
-	.bnr-txt-w3pvt {
+	.bnr-txt-jithu {
 		margin: 9em 0 4em;
 	}
-	.bnr-w3pvt-txt h6 {
+	.bnr-jithu-txt h6 {
 		margin-bottom: 25px;
 	}
 	h3.position {
@@ -942,13 +934,13 @@ a.move-top span{
 	}
 }
 @media(max-width:480px) {
-    .bnr-w3pvt-txt h2 {
+    .bnr-jithu-txt h2 {
 		font-size: 35px;
 	}
-	.bnr-w3pvt-txt h4 {
+	.bnr-jithu-txt h4 {
 		font-size: 18px;
 	}
-	.bnr-w3pvt-txt h6 {
+	.bnr-jithu-txt h6 {
 		margin-bottom: 20px;
 		font-size: 16px;
 	}
@@ -979,16 +971,16 @@ a.move-top span{
     .navbar {
 		padding: .5em 0em;
 	}
-	h1.wthree-logo a {
+	h1.joyal-logo a {
 		font-size: 0.7em;
 	}
 	ul#menu {
 		right: 5%;
 	}
-	.bnr-w3pvt-txt h2 {
+	.bnr-jithu-txt h2 {
 		font-size: 30px;
 	}
-	.bnr-w3pvt-txt h6 {
+	.bnr-jithu-txt h6 {
 		font-size: 15px;
 	}
 	h3.position {
@@ -1030,7 +1022,7 @@ a.move-top span{
 	footer p, footer p a, .copyright p {
 		font-size: 15px;
 	}
-	h3.wthree-logo a {
+	h3.joyal-logo a {
 		font-size: 1em;
 	}
 	a.scroll.bnr-btn, a.scroll.bnr-btn1 {
@@ -1044,15 +1036,15 @@ a.move-top span{
     a.scroll.bnr-btn, a.scroll.bnr-btn1 {
 		font-size: 13px;
 	}
-	.bnr-w3pvt-txt h4 {
+	.bnr-jithu-txt h4 {
 		font-size: 16px;
 		letter-spacing: 0.5px;
 	}
-	.bnr-w3pvt-txt h6 {
+	.bnr-jithu-txt h6 {
 		margin-bottom: 15px;
 		font-size: 14px;
 	}
-	.bnr-txt-w3pvt {
+	.bnr-txt-jithu {
 		margin: 8em 0 3em;
 	}
 	ul.submenu li a {
